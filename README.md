@@ -5,13 +5,22 @@ This repo contains various **HTML files** created as part of my journey to learn
 ---
 ## Files in this Repository
 
-- `index.html` – Basic homepage structure
-- `about.html` – Sample "About Me" page
-- `form.html` – Simple form using input fields
-- `resume.html` – Resume layout using HTML
-- `contact.html` – Contact form with labels and inputs
-- `table.html` – Practice with tables
-- *(Add more files as you go!)*
+-'CSSGRID.html' - Learn About GridLayout
+-'CSSbox.html'  - Learn about CSS Boxing
+-'Canvas.html' - Learn about Canvas Element
+-'Contactform.html' - Create a Contact Form using HTML5 input types
+-'Execrise1.html' - FirstHtml Basic Experience
+-'Execrise2.html' - Html links Demo
+-'Execrise3.html' - Learn About Image
+-'PersonalDetails.html' - Build a Webapage about MySelf
+-'Video.html' - Embed a Youtube Video& audio clip on webpage
+-'Treasure.html' - Design a Coding Game with online help
+-'Women.html' - Normal Webppage about Women
+-'GeoLoc.html' - Demontrates about Geolocation API
+-'WebStorage.html' - About to store data in localStorage
+-'FlexDemo.html' - Learn About FlexDemo
+-'sign.html' - simple Webpage about signlanguage
+-'blog.html '- I create a MyBlog using HTML5 
 
 ---
 
