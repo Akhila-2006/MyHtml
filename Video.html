@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML5 Semantic Webpage</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color:bisque;
+        }
+        header {
+            background-color:maroon;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        nav {
+            background-color:aqua;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color:black;
+            margin: 10px;
+            text-decoration: none;
+            font-size: 18px;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        main {
+            display: flex;
+            padding: 20px;
+            
+        }
+        article {
+            flex: 2;
+            background-color:palevioletred;
+            padding: 20px;
+            margin-right: 20px;
+            border-radius: 5px;
+           
+        }
+        aside {
+            flex: 1;
+            background-color:cornflowerblue;
+            padding: 20px;
+            border-radius: 5px;
+           
+        }
+        footer {
+            background-color:olivedrab;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            margin-top: 20px;
+        }
+        figure {
+            text-align: center;
+        }
+        
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to My HTML5 Webpage</h1>
+        <p>Using Semantic Elements & Multimedia</p>
+    </header>
+    <nav>
+        <a href="#in">Home</a>
+        <a href="#vi">About</a>
+        <a href="#au">Audio</a>
+        <a href="#im">Image</a>
+    </nav>
+    <main>
+    
+        <section>
+            <h2 id="in">Introduction to HTML5</h2>
+            <p>HTML5 introduced several new features, including semantic elements that improve accessibility and readability of web pages.</p>
+        <p>HTML5 is the latest version of HyperText Markup Language (HTML) — the standard language used to create and design websites.</p> 
+        <p>It brings powerful new features that make webpages more interactive, accessible, and multimedia-rich without needing plugins like Flash.</p>
+            <article>
+                <h3 id="vi">HTML5 Video Example</h3>
+                <iframe  src="https://www.youtube.com/embed/O5nskjZ_GoI?&control=1" title="How Computers Work">
+            </iframe>
+            </article><br><br>
+            <article>
+                <h3 id="au">HTML5 Audio Example</h3>
+                <audio controls>
+                    <source src="c:\Users\akhil\Downloads\Radhe Shyam Flute Bgm Download Naa Songs.mp3" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                </audio>
+            </article>
+        </section>
+        <aside>
+            <h2>Quick Facts</h2>
+            <ul>
+                <li>HTML5 introduced semantic elements.</li>
+                <li>It supports native audio and video playback.</li>
+                <li>Enhances web accessibility.</li>
+            </ul>
+            <figure id="im">
+                <img src="download.jpeg" alt="HTML5 Illustration">
+                <figcaption>Figure 1: HTML5 Structure</figcaption>
+            </figure>
+
+        </aside>
+    </main>
+    <footer>
+        <p>&copy; 2025 My Webpage | Designed with HTML5</p>
+    </footer>
+
+</body>
+</html>

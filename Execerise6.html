@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Creating The forms</title>
+    </head>
+    <body>
+        <h1>Novell Services Login</h1>
+        <form>
+                <label> Username : </label>
+                <input  align = "center;"type="text" name="t1"/><br><br>
+                <label>Password : </label>
+                <input type="text" name="t2"><br><br>
+                <label>City of <br> Empolyment : </label>
+                <input type="text" name="t3"><br><br>
+                <label>WebServer  : </label>
+                <select>
+                    <option  align = "center; " selected value="choose the websever">Choose the Webserver</option>
+                    <option value="Apache">Apache-HTTPServer</option>
+                    <option value="wildfly">WildFly</option>
+                    <option value="cadde">Cadde</option>
+                    <option value="litespeed">LiteSpeed</option>
+                </select>
+                <br>
+                <br>
+                <pr>Please Specify <br> Your role : </pr><br>
+                <input   type="radio" name="role" /><label>Admin</label><br>
+                <input  type="radio" name="role" /><label>Engineer</label><br>
+                <input   type="radio" name="role" /><label>Manager</label><br>
+                <br>
+                    <pr>Single Sign on <br> to the following : </pr><br>
+                    <input type="checkbox" name="signin" /><label>Mail</label><br>
+                    <input type="checkbox" name="signin" /><label>Payroll</label><br>
+                    <input type="checkbox" name="signin" /><label>Self-service</label><br>
+            <br>
+            <button type="button" onclick="alert('Login Successfully!')">Login</button>
+            <button type="reset" onclick="alert('Form Reset Successfully!')">Reset</button>
+        </form>
+    </body>
+</html>
