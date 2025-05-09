@@ -45,7 +45,7 @@ You can:
 
 ## About Me
 
-Hi, I’m *Akhila* – a B.Tech CSE student passionate about web development.  
+Hi, I’m *Akhila* – a B.Tech IT student passionate about web development.  
 I'm on a journey to become a **Java Full Stack Developer** and currently learning HTML, CSS, and more!
 
 ---
